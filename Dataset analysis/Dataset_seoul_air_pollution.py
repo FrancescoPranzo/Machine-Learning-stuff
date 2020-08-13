@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
-
+#Analisi compiuta sul seguente dataset: https://www.kaggle.com/bappekim/air-pollution-in-seoul/data#
+#Vedere la correlazione tra SO2 e O3
 dataset = pd.read_csv("Measurement_summary.csv")
 dataset.head()
 dataset.shape
